@@ -1,0 +1,55 @@
+.dash-side-bar-main-container .button {
+    position: absolute;
+    background-color: #efefefef;
+    border: none;
+}
+
+.button:hover {
+    background-color: #eaeaeae8;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px #d0d0d0;
+}
+
+.right .button {
+    right: 0px;
+}
+
+.left .button {
+    left: 0px;
+}
+
+.dash-side-bar-content,
+.dash-side-bar {
+    position: absolute;
+    transition: all 1s;
+}
+
+.dash-side-bar {
+    height: 100%;
+}
+
+.dash-side-bar-main-container.closed .dash-side-bar {
+    display: block;
+    opacity: 0%;
+    width: 0%;
+}
+
+.dash-side-bar-main-container.open .dash-side-bar {
+    display: block;
+    opacity: 100%;
+    width: 10em;
+    background-color: #eaeaeae8;
+    box-shadow: 0px 0px 5px #d0d0d0;
+}
+
+.dash-side-bar-main-container.left .dash-side-bar {
+    margin-left: 1.2em;
+}
+
+.dash-side-bar-main-container.closed.left .dash-side-bar-content {
+    margin-left: 1.2em;
+}
+
+.dash-side-bar-main-container.open.left .dash-side-bar-content {
+    margin-left: 11.2em;
+}

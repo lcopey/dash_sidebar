@@ -1,0 +1,11 @@
+include dash_sidebar/dash_sidebar.min.js
+include dash_sidebar/dash_sidebar.min.js.map
+include dash_sidebar/async-*.js
+include dash_sidebar/async-*.js.map
+include dash_sidebar/*-shared.js
+include dash_sidebar/*-shared.js.map
+include dash_sidebar/metadata.json
+include dash_sidebar/package-info.json
+include README.md
+include LICENSE
+include package.json
